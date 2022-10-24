@@ -22,46 +22,29 @@ class linkedlist:
     
     def printAll(self):
         """this is for printing"""
-        if self.head is None:
-            print("The linked list is empty")
-        else:
-            current = self.head
-            while current is not None:
-                print(current.value)
-                current = current.next
-
-    def delete(self,node):
-        """this is responseble to delete a node"""
-
-        current=self.head
-        if (current is not None):
-            if (current.value == node):
-                self.head = current.next
-                
-                return
-        while(current is not None):
-            if current.value == node:
-                break
-            prev = current
+        
+        current = self.head
+        while current is not None:
+            print(current.value)
             current = current.next
-        if current==None:
-            print("Value not found")
-            return ("Value not found") 
 
-        prev.next = current.next
- 
-        current = None
+    
     def test_fun(self):
-        """this is for testing"""
+        """this is just for testing"""
         lst=[]
-        if self.head is None:
-            return"The linked list is empty"
-        else:
-            current = self.head
-            while current is not None:
-                lst.append(current.value)
-                current = current.next
+
+        current = self.head
+        while current is not None:
+            lst.append(current.value)
+            current = current.next
         return lst
+
+def delete(node):
+    """this is responseble to delete a node"""
+
+    node.value=node.next.value
+    node.next=node.next.next
+
 
 
 
@@ -81,6 +64,6 @@ linkedList1.append(node4)
 node5 = Node("E")
 linkedList1.append(node5)
 
-linkedList1.delete("D")
+delete(node3)
 
 linkedList1.printAll()        
