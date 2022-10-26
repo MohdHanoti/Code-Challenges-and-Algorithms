@@ -1,0 +1,1 @@
+![whiteboard_03](/assets/linked-list/whiteboard_challenge_03.png)
