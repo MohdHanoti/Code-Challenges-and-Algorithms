@@ -1,0 +1,1 @@
+![Whiteboard](/assets/whiteboard_stack&queue_challenge_02.png)
