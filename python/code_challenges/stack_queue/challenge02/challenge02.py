@@ -51,6 +51,8 @@ class Stack:
     def valid_parentheses(self,s):
         '''this method determine if the input string is valid Parentheses'''
         parentheses={'(':')','[':']','{':'}'}
+        if not s:
+            return "empty string"
         for symbol in s:
             if symbol in parentheses.keys():
                 self.push(symbol)

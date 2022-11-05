@@ -32,3 +32,8 @@ def test_valid_parentheses_06():
     actual=stack1.valid_parentheses("[{(()}]")
     expected=False
     assert actual== expected
+
+def test_valid_parentheses_07():
+    actual=stack1.valid_parentheses("")
+    expected="empty string"
+    assert actual== expected
