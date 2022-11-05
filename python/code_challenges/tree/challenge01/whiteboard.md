@@ -1,0 +1,1 @@
+![Whiteboard](/assets/whiteboard_tree_challenge_01.png)
