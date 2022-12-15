@@ -1,0 +1,1 @@
+![Whiteboard](/assets/whiteboard_hashtable_challenge_02.png)
