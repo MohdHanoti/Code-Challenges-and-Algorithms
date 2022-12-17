@@ -1,0 +1,1 @@
+![Whiteboard](/assets/whiteboard_graph_challenge_01.png)
